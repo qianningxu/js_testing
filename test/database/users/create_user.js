@@ -1,16 +1,14 @@
-import { functions } from '../firebaseConfig.js';
+import { functions } from '../../../firebaseConfig.js';
 import { httpsCallable } from 'firebase/functions';
 
 // Reference to the callable function
-const testFunction = httpsCallable(functions, 'start_writing_api')
+const testFunction = httpsCallable(functions, 'create_user')
 
 const data = {
-    "requirement": "How did china rise in 2000s",
-
+    "user_id": "123456",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
 };
-
-// Convert the data object to a JSON string
-// const jsonData = JSON.stringify(data);
 
 testFunction(data)
     .then(({ data: responseData }) => {
@@ -19,5 +17,5 @@ testFunction(data)
     })
     .catch(error => {
         console.error('Error calling the function:', error);
-        // You can handle errors here, such as displaying an error message to the user
+        // You can handle errors here, such as displaying an error message to the users
     });

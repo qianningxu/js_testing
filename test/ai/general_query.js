@@ -1,4 +1,4 @@
-import { functions } from '../firebaseConfig.js';
+import { functions } from '../../firebaseConfig.js';
 import { httpsCallable } from 'firebase/functions';
 
 // Reference to the callable function
@@ -17,5 +17,5 @@ testFunction(data)
     })
     .catch(error => {
         console.error('Error calling the function:', error);
-        // You can handle errors here, such as displaying an error message to the user
+        // You can handle errors here, such as displaying an error message to the users
     });
