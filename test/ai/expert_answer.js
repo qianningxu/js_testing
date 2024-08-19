@@ -2,7 +2,7 @@ import { functions } from '../../firebaseConfig.js';
 import { httpsCallable } from 'firebase/functions';
 
 // Reference to the callable function
-const testFunction = httpsCallable(functions, 'expert_answer_api')
+const testFunction = httpsCallable(functions, 'expert_response_api')
 
 const data = {
     "question": "How did China rise up in the 21th century?"
