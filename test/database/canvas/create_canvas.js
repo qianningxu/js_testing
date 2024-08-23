@@ -4,9 +4,9 @@ import { httpsCallable } from 'firebase/functions';
 const createCanvasFunction = httpsCallable(functions, 'create_canvas');
 
 const data = {
-    "canvas_id": "001",  // Specify the unique canvas ID
+    "canvas_id": "0asdf01",  // Specify the unique canvas ID
     "user_id": "123456", // Reference to the users
-    "title": "My First Canvas" // Title of the canvas
+    "title": "My Fifsdas" // Title of the canvas
 };
 
 createCanvasFunction(data)
