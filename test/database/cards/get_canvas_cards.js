@@ -6,9 +6,8 @@ const getCanvasCardsFunction = httpsCallable(functions, 'get_canvas_cards');
 
 // Specify the test data, particularly the canvas_id
 const data = {
-    "canvas_id": "0asdf01"  // Update with the exact canvas ID seen in Firestore
+    "canvas_id": "canvasID1"  // Update with the exact canvas ID seen in Firestore
 };
-
 
 // Call the function with the specified data
 getCanvasCardsFunction(data)
@@ -20,14 +19,8 @@ getCanvasCardsFunction(data)
         if (responseData.status === 'Success') {
             console.log(`Retrieved ${responseData.cards.length} cards from canvas with ID ${data.canvas_id}.`);
 
-            // Additional checks can be done here, for example:
-            if (responseData.cards.length > 0) {
-                responseData.cards.forEach(card => {
-                    console.log(`Card ID: ${card.id}, Title: ${card.title}`);
-                });
-            } else {
-                console.log('No cards found for this canvas.');
-            }
+            // Print the entire responseData object as a formatted JSON string
+            console.log('Complete response in JSON format:', JSON.stringify(responseData, null, 2));
         } else {
             console.error('Unexpected status in response:', responseData.status);
         }
