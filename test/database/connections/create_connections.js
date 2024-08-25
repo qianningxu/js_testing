@@ -5,7 +5,7 @@ const createConnectionFunction = httpsCallable(functions, 'create_connection');
 
 const data = {
     "canvas_id": "canvasID1",
-    "connection_id": "connectionID1",
+    "connection_id": "connectionID2",
     "from_card_id": "cardID1",
     "to_card_id": "cardID2",
     "from_node": "north",
