@@ -8,10 +8,9 @@ const data = {
     "question": "How did China rise up in the 21th century?"
 };
 
-// Convert the data object to a JSON string
-const jsonData = JSON.stringify(data);
 
-testFunction(jsonData)
+
+testFunction(data)
     .then(({ data: responseData }) => {
         console.log('Function call successful:', responseData);
         // You can handle the response data here, such as updating the UI
