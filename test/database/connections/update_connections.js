@@ -6,10 +6,10 @@ const updateConnectionFunction = httpsCallable(functions, 'update_connection');
 const data = {
     "canvas_id": "canvasID1",
     "connection_id": "connectionID1",
-    "update_data": {
-        "from_node": "east",  // Updated node
-        "to_node": "west"
-    }
+    "from_card_id": "cardID1",    // Added required fields
+    "from_node": "east",          // Updated node
+    "to_card_id": "cardID2",      // Added required fields
+    "to_node": "west",            // Updated node
 };
 
 updateConnectionFunction(data)
