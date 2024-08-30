@@ -5,9 +5,13 @@ const createCardFunction = httpsCallable(functions, 'create_card');
 
 const data = {
     "canvas_id": "canvasID1",
-    "card_id": "sdfgIadsf1",
-    "title": "Caradsfd 1",
+    "card_id": "card4",
+    "title": "example card",
     "content": "Thisa sple sgfdcard.",
+    'measured': {
+        width: 32,
+        height: 202
+    },
     "position": { x: 100, y: 200 },
     "nodes": { north: true, south: true, west: true, east: true }
 };

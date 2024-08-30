@@ -5,9 +5,11 @@ const createGroupFunction = httpsCallable(functions, 'create_group');
 
 const data = {
     "canvas_id": "canvasID1",
-    "group_id": "groupID1",
+    "group_id": "groupID2",
     "name": "Group 1",
-    "card_ids": ["cardID1", "cardID3"]
+    'measured': { width: 32, height: 202 },
+    "position": { x: 100, y: 200 },
+    "card_ids": []
 };
 
 createGroupFunction(data)
