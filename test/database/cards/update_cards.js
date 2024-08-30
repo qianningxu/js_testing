@@ -5,11 +5,16 @@ const updateCardFunction = httpsCallable(functions, 'update_card');
 
 const data = {
     "canvas_id": "canvasID1",
-    "card_id": "cardID1",
+    "card_id": "sdfgID1",
     "update_data": {
-        "title": "Updated Card Title",
-        "content": "Updated content of the card.",
-        "position": { x: 150, y: 250 }  // New position
+        "title": "example card",
+        "content": "Thisa sple sgfdcard.",
+        'measured': {
+            width: 32,
+            height: 202,
+        },
+        "position": { x: 100, y: 200 },
+        "nodes": { north: true, south: true, west: true, east: true }
     }
 };
 
