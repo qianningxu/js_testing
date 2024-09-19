@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "firebase": "^10.12.5"
+    "firebase": "^10.12.5",
+    "node-fetch": "^2.7.0"
   }
 }
