@@ -1,4 +1,4 @@
-import { functions } from '../../firebaseConfig.js';
+import { functions } from '../../../firebaseConfig.js';
 import { httpsCallable } from 'firebase/functions';
 
 // Reference to the callable function
