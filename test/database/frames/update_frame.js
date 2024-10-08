@@ -7,8 +7,7 @@ const data = {
     "canvas_id": "canvasID1",
     "frame_id": "frameID2",
     "update_data": {
-        "name": "Updated Frame 1",
-        "card_ids": ["cardID2", "cardID3"]
+        'direction': "vertical"
     }
 };
 

@@ -4,7 +4,7 @@ import { httpsCallable } from 'firebase/functions';
 const deleteCanvasFunction = httpsCallable(functions, 'delete_canvas');
 
 const data = {
-    "canvas_id": "001" // Specify the canvas_id of the canvas you want to delete
+    "canvas_id": "0asdf01" // Specify the canvas_id of the canvas you want to delete
 };
 
 deleteCanvasFunction(data)

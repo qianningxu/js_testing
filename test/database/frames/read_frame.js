@@ -5,7 +5,7 @@ const readGroupFunction = httpsCallable(functions, 'read_frame');
 
 const data = {
     "canvas_id": "canvasID1",
-    "frame_id": "frameID2"
+    "frame_id": "frameID4"
 };
 
 readGroupFunction(data)
