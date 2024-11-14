@@ -6,9 +6,9 @@ const deleteCardFunction = httpsCallable(functions, 'card_curd_operations');
 const data = {
     "methods_type": "rt_delete_card",
     "data": {                       
-        "user_id": "123456",
+        "user_id": "userID1",
         "canvas_id": "canvasID1",
-        "card_id": "card3"
+        "card_id": "card1"
     }
 };
 
