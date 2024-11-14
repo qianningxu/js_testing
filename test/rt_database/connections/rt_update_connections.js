@@ -8,7 +8,7 @@ const data = {
     "data":{    
         "user_id": "123456",
         "canvas_id": "canvasID1",
-        "connection_id": "connectionID1",
+        "connection_id": "connectionID7",
         "from_card_id": "cardID1",    // Added required fields
         "from_node": "east",          // Updated node
         "to_card_id": "cardID2",      // Added required fields

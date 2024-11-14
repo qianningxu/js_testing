@@ -8,7 +8,7 @@ const data = {
     "data": {                       
         "user_id": "123456",
         "canvas_id": "canvasID1",
-        "card_id": "card1"
+        "card_id": "card3"
     }
 };
 

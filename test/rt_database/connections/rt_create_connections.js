@@ -8,9 +8,9 @@ const data = {
     "data":{
         "user_id": "123456",
         "canvas_id": "canvasID1",
-        "connection_id": "connectionID5",
-        "from_card_id": "cardID1",
-        "to_card_id": "cardID2",
+        "connection_id": "connectionID7",
+        "from_card_id": "card1",
+        "to_card_id": "card3",
         "from_node": "north",
         "to_node": "south"
     }

@@ -8,7 +8,7 @@ const data = {
     "data": {
         "user_id": "123456",
         "canvas_id": "canvasID1",
-        "connection_id": "connectionID1"
+        "connection_id": "connectionID5"
     }
 };
 

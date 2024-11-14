@@ -7,7 +7,7 @@ const data = {
     "methods_type": "rt_read_canvas",
     "data": {
         "user_id": "123456",
-        "canvas_id": "0asdf02" // Specify the canvas_id of the canvas you want to read
+        "canvas_id": "canvasID1" // Specify the canvas_id of the canvas you want to read
     }
 };
 
