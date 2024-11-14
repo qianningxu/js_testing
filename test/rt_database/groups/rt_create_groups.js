@@ -1,19 +1,18 @@
 import { functions } from '../../../firebaseConfig.js';
 import { httpsCallable } from 'firebase/functions';
 
-
-const createCanvasFunction = httpsCallable(functions, 'canvas_curd_operations');
+const createGroupFunction = httpsCallable(functions, 'rt_create_group');
 
 const data = {
-    "methods_type": "rt_create_canvas",
-    "data": {
-        "user_id": "123456",
-        "canvas_id": "0asdf01" // Specify the canvas_id of the canvas you want to delete
-    }
-    
+    "canvas_id": "canvasID1",
+    "group_id": "groupID5",
+    "name": "Group 1",
+    'measured': { width: 32, height: 202 },
+    "position": { x: 100, y: 200 },
+    "card_ids": []
 };
 
-deleteCanvasFunction(data)
+createGroupFunction(data)
     .then(({ data: responseData }) => {
         console.log('Function call successful:', responseData);
     })

@@ -1,19 +1,18 @@
 import { functions } from '../../../firebaseConfig.js';
 import { httpsCallable } from 'firebase/functions';
 
-
-const createCanvasFunction = httpsCallable(functions, 'canvas_curd_operations');
+const deleteCardFunction = httpsCallable(functions, 'card_curd_operations');
 
 const data = {
-    "methods_type": "rt_create_canvas",
-    "data": {
+    "methods_type": "rt_delete_card",
+    "data": {                       
         "user_id": "123456",
-        "canvas_id": "0asdf01" // Specify the canvas_id of the canvas you want to delete
+        "canvas_id": "canvasID1",
+        "card_id": "card1"
     }
-    
 };
 
-deleteCanvasFunction(data)
+deleteCardFunction(data)
     .then(({ data: responseData }) => {
         console.log('Function call successful:', responseData);
     })
