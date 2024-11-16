@@ -8,7 +8,7 @@ const data = {
     "data":{
         "user_id": "123456",
         "canvas_id": "canvasID1",
-        "stack_id": "stackID1",
+        "stack_id": "stackID2",
         "name": "stack 1",
         'direction': "vertical",
         'measured': { width: 32, height: 202 },

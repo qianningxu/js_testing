@@ -2,11 +2,15 @@ import { functions } from '../../../firebaseConfig.js';
 import { httpsCallable } from 'firebase/functions';
 
 // Define the Cloud Function that you want to call
-const getCanvasGroupsFunction = httpsCallable(functions, 'rt_get_canvas_groups');
+const getCanvasGroupsFunction = httpsCallable(functions, 'group_curd_operations');
 
 // Specify the test data, particularly the canvas_id
 const data = {
-    "canvas_id": "canvasID1"  // Replace with the correct canvas ID
+    "methods_type": "rt_get_canvas_groups", 
+    "data": {
+        "user_id": "123456",
+        "canvas_id": "canvasID1"  // Replace with the correct canvas ID
+    }
 };
 
 // Call the function with the specified data

@@ -1,15 +1,19 @@
 import { functions } from '../../../firebaseConfig.js';
 import { httpsCallable } from 'firebase/functions';
 
-const createGroupFunction = httpsCallable(functions, 'rt_create_group');
+const createGroupFunction = httpsCallable(functions, 'group_curd_operations');
 
 const data = {
-    "canvas_id": "canvasID1",
-    "group_id": "groupID5",
-    "name": "Group 1",
-    'measured': { width: 32, height: 202 },
-    "position": { x: 100, y: 200 },
-    "card_ids": []
+    "methods_type": "rt_create_group",
+    "data":{
+        "user_id": "123456",
+        "canvas_id": "canvasID1",
+        "group_id": "groupID1",
+        "name": "Group 1",
+        'measured': { width: 32, height: 202 },
+        "position": { x: 100, y: 200 },
+        "card_ids": []
+    }
 };
 
 createGroupFunction(data)
