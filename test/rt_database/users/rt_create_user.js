@@ -7,9 +7,9 @@ const createUserFunction = httpsCallable(functions, 'user_curd_operations');
 const data = {
     "methods_type": "rt_create_user",       
     "data":{
-        "user_id": "userID2",
-        "name": "John Doe",
-        "email": "johndoe@example.com"
+        "user_id": "test_user",
+        "name": "Test user",
+        "email": "test_user@example.com"
     }
 };
 
