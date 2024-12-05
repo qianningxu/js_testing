@@ -9,9 +9,7 @@ const createFolderData = {
         "user_id": "test_user",
         "item_id": "canvas4",
         "new_parent_id": "folder1",
-        "new_order":0,
-        "title": "New Folder",
-        "parent_id": null
+        "new_order":0
     }
 };
 
