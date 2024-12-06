@@ -10,14 +10,12 @@ const data = {
         "canvas_id": "canvasID1",
         "card_id": "card1",
         "title": "example card",
-        "width": 1,
         "content": "Thisa sple sgfdcard.",
         'measured': {
             width: 32,
             height: 202
         },
-        "position": { x: 100, y: 200 },
-        "nodes": { north: true, south: true, west: true, east: true }
+        "position": { x: 100, y: 200 }
     }
 };
 
