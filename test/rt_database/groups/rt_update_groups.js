@@ -10,8 +10,9 @@ const data = {
         "canvas_id": "canvasID1",
         "group_id": "groupID1",
         "update_data": {
-        "name": "Updated Group 1",
-            "card_ids": ["cardID2", "cardID3"]
+            "name": "Updated Group 1",
+            "card_ids": ["cardID2", "cardID3"],
+            "title": "Updated Title"
         }
     }
 };
