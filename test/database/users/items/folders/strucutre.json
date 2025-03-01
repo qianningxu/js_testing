@@ -1,0 +1,98 @@
+{
+    "contents": [
+      {
+        "children": [],
+        "created_at": 1741039619,
+        "id": "canvas1",
+        "order": 0,
+        "parent_id": "",
+        "title": "My Canvas Title",
+        "type": "canvas",
+        "updated_at": 1741039619
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "created_at": 1741039643,
+            "id": "canvas2",
+            "order": 0,
+            "parent_id": "folder1",
+            "title": "My Canvas Title",
+            "type": "canvas",
+            "updated_at": 1741039643
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "created_at": 1741039740,
+                "id": "canvas3",
+                "order": 0,
+                "parent_id": "folder2",
+                "title": "My Canvas Title",
+                "type": "canvas",
+                "updated_at": 1741039740
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "created_at": 1741039763,
+                    "id": "canvas4",
+                    "order": 0,
+                    "parent_id": "folder4",
+                    "title": "My Canvas Title",
+                    "type": "canvas",
+                    "updated_at": 1741039763
+                  },
+                  {
+                    "children": [],
+                    "created_at": 1741039773,
+                    "id": "folder5",
+                    "order": 1,
+                    "parent_id": "folder4",
+                    "title": "foler 2",
+                    "type": "folder",
+                    "updated_at": 1741039773
+                  }
+                ],
+                "created_at": 1741039753,
+                "id": "folder4",
+                "order": 1,
+                "parent_id": "folder2",
+                "title": "foler 2",
+                "type": "folder",
+                "updated_at": 1741039753
+              }
+            ],
+            "created_at": 1741039708,
+            "id": "folder2",
+            "order": 1,
+            "parent_id": "folder1",
+            "title": "foler 2",
+            "type": "folder",
+            "updated_at": 1741039708
+          },
+          {
+            "children": [],
+            "created_at": 1741039720,
+            "id": "folder3",
+            "order": 2,
+            "parent_id": "folder1",
+            "title": "foler 2",
+            "type": "folder",
+            "updated_at": 1741039720
+          }
+        ],
+        "created_at": 1741039443,
+        "id": "folder1",
+        "order": 0,
+        "parent_id": "",
+        "title": "foler 1",
+        "type": "folder",
+        "updated_at": 1741039443
+      }
+    ],
+    "status": "Success"
+  }
