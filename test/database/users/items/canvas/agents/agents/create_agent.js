@@ -8,8 +8,9 @@ const data = {
     "data": {
         "user_id": "123",
         "canvas_id": "canvas1",
-        "agent_id": "agent1",
+        "agent_id": "agent11",
         "name": "Test Agent 2",
+        "parent_id": "test_folder_1",
         "content": "This is a sample agent content.",
         "parent_id": "agentFolder1"
     }
