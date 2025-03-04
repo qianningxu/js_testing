@@ -10,6 +10,8 @@ const getDirectoryData = {
   canvas_id: "canvas1"
 };
 
+{"data":{"methods_type":"rt_get_entire_directory","data":{"user_id":"isHW3KmXxcdkuH77vMTGyqhmNgU2"}}}
+
 async function testGetPdfDirectory() {
   try {
     console.log("\n🔹 Getting PDF directory...");
