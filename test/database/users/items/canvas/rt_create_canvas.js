@@ -3,15 +3,7 @@ import { httpsCallable } from 'firebase/functions';
 
 const createCanvasFunction = httpsCallable(functions, 'canvas_curd_operations');
 
-const data = {
-    "methods_type": "rt_create_canvas",
-    "data": {
-        "canvas_id": "canvas4",  // Specify the unique item ID (formerly canvas_id)
-        "user_id": "123", // Reference to the users
-        "title": "My Canvas Title",  // Title of the canvas
-        "parent_id": "folder4"  // Optional: Specify parent folder ID, null if top-level
-    }
-};
+const data = {"methods_type":"rt_create_canvas","data":{"canvas_id":"canvas_1741177940533","title":"Untitled","parent_id":"root","type":"canvas","user_id":"QDUppO3NtRRwHGp9N5sPTCcpvIU2"}};
 
 createCanvasFunction(data)
     .then(({ data: responseData }) => {

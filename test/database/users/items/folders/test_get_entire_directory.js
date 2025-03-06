@@ -6,7 +6,7 @@ const folderFunction = httpsCallable(functions, 'folder_curd_operations');
 const getFolderContentsData = {
     "methods_type": "rt_get_entire_directory",
     "data": {
-        "user_id": "isHW3KmXxcdkuH77vMTGyqhmNgU2"
+        "user_id": "QDUppO3NtRRwHGp9N5sPTCcpvIU2"
     }
 };
 

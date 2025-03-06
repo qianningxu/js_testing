@@ -8,7 +8,7 @@ const chatOperations = httpsCallable(functions, 'chat_crud_operations');
 async function testGetActiveThread() {
   try {
     // Replace with your actual chat ID
-    const chatId = "24add134-bf0c-4491-81ef-bba1297b3d1a";
+    const chatId = "aadb3860-f44f-451f-a5e4-31d056b557d1";
     
     console.log("Getting active thread for chat:", chatId);
     
