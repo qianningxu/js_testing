@@ -9,7 +9,7 @@ const getMultipleContextMMR = httpsCallable(functions, 'get_context_mmr');
 const data = {
   user_id: "123",
   canvas_id: "canvas1",
-  pdf_ids: ["py1010_1"],  // Example with multiple PDFs
+  pdf_ids: ["py1010_1","py1010_2","py1010_3"],  // Example with multiple PDFs
   query: "What do you think of the mind body problem",
   k: 8,                // Number of documents to return in final result
   fetch_k: 24,         // Number of documents to initially fetch before diversity filtering
