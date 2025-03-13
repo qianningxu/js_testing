@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:test/database/users/items/canvas/pdfs/pdf_folders/test_create_pdf_folder.js
-import { functions } from '../../../../../../../firebaseConfig.js';
-========
 import { functions } from '../../../../firebaseConfig.js';
->>>>>>>> 660d5776fab637c3f0dee9fdb8ff3faeb3be4afe:test/database/by_canvas/pdf_folders/test_create_pdf_folder.js
 import { httpsCallable } from 'firebase/functions';
 
 // Firebase function reference

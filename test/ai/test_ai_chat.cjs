@@ -30,7 +30,7 @@ const testFunction = async () => {
     const response = await axios.post(
       `${BASE_URL}/ai_operations_streaming`, // Add the function name to the URL path
       {
-        "method_type": "direct",
+        "method_type": "direct", /*diffuse */
         "user_input": "What are the implications of AI on society, give me an essay?",
         "isReason": true,
         /*Is there is an agent, put the agent's content(prompt) down below, otherwise, keep it as an empty string*/
